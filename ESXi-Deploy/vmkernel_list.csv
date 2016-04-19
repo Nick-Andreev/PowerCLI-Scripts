@@ -1,0 +1,7 @@
+Host,Name,vSwitch,Action,IP,Subnet_Mask,Vlan_Id,MTU,Type,vMotion,iSCSI,iSCSI_Type,Adapter_Name
+prod-esxi01,iSCSI A,dvSwitch,Add,10.10.12.11,255.255.255.0,12,1500,Distributed,disabled,enabled,Dependent,vmhba35
+prod-esxi01,iSCSI B,dvSwitch,Add,10.10.14.1,255.255.255.0,14,1500,Distributed,disabled,enabled,Dependent,vmhba36
+prod-esxi01,VMotion,dvSwitch,Add,10.10.15.11,255.255.255.0,15,1500,Distributed,enabled,disabled
+prod-esxi02,iSCSI A,dvSwitch,Add,10.10.12.12,255.255.255.0,12,1500,Distributed,disabled,enabled,Dependent,vmhba35
+prod-esxi02,iSCSI B,dvSwitch,Add,10.10.14.12,255.255.255.0,14,1500,Distributed,disabled,enabled,Dependent,vmhba36
+prod-esxi02,VMotion,dvSwitch,Add,10.11.15.12,255.255.255.0,15,1500,Distributed,enabled,disabled

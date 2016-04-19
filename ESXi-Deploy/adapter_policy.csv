@@ -1,0 +1,25 @@
+Portgroup,Adapter,Policy,Type
+Management Network,dvUplink1,active,Distributed
+Management Network,dvUplink2,standby,Distributed
+Management Network,dvUplink3,unused,Distributed
+Management Network,dvUplink4,unused,Distributed
+VMotion,dvUplink1,standby,Distributed
+VMotion,dvUplink2,active,Distributed
+VMotion,dvUplink3,unused,Distributed
+VMotion,dvUplink4,unused,Distributed
+iSCSI A,dvUplink1,unused,Distributed
+iSCSI A,dvUplink2,unused,Distributed
+iSCSI A,dvUplink3,active,Distributed
+iSCSI A,dvUplink4,unused,Distributed
+iSCSI B,dvUplink1,unused,Distributed
+iSCSI B,dvUplink2,unused,Distributed
+iSCSI B,dvUplink3,unused,Distributed
+iSCSI B,dvUplink4,active,Distributed
+10_management,dvUplink1,active,Distributed
+10_management,dvUplink2,active,Distributed
+10_management,dvUplink3,unused,Distributed
+10_management,dvUplink4,unused,Distributed
+20_servers,dvUplink1,active,Distributed
+20_servers,dvUplink2,active,Distributed
+20_servers,dvUplink3,unused,Distributed
+20_servers,dvUplink4,unused,Distributed

@@ -1,0 +1,5 @@
+Name,Adapter,MTU,Action,Type
+dvSwitch,vmnic0,1500,Add,Distributed
+dvSwitch,vmnic1,1500,Add,Distributed
+dvSwitch,vmnic2,1500,Add,Distributed
+dvSwitch,vmnic3,1500,Add,Distributed

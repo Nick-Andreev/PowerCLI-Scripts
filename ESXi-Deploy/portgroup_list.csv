@@ -1,0 +1,3 @@
+Portgroup,vSwitch_name,Type,Action,Vlanid
+10_Management,dvSwitch,Distributed,Add,10
+20_Servers,dvSwitch,Distributed,Add,20
