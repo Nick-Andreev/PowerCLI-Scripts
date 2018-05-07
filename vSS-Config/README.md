@@ -34,6 +34,5 @@ PS> Get-Help .\vss-config-v1.0.ps1 -full
 
 Nick Andreev:
 
-* nandreev@deloitte.com.au
 * https://niktips.wordpress.com
 * @nick_andreev_au
