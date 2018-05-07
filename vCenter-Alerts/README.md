@@ -15,7 +15,7 @@ Script also expects alert definitions from the source vCenter to exist on the de
 * Download and install VMware PowerCLI from: https://my.vmware.com/en/web/vmware/downloads
 * Configure mail server settings in vCenter
 
-###Usage Examples
+### Usage Examples
 
 ```
 PS> .\copy-vcenter-alerts-v1.0.ps1 -SourceVcenter old-vc.acme.com -DestinationVcenter new-vc.acme.com
