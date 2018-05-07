@@ -1,8 +1,8 @@
-Description
+### Description
 
 When using virtual standard switches, switch configuration changes have to be manually applied to every host in a vSphere cluster. This script helps to automate this process by replicating the configuration across all hosts.
 
-Prerequisites
+### Prerequisites
 
 Download and install VMware PowerCLI from: https://my.vmware.com/en/web/vmware/downloads
 Usage Examples
@@ -19,12 +19,13 @@ For detailed description see script help:
 
 PS> Get-Help .\vss-config-v1.0.ps1 -full
 
-Environment Configuration
+### Environment Configuration
 
 vSphere 6.0
 PowerShell 4.0
 PowerCLI 6.0
-Author
+
+### Author
 
 Nick Andreev:
 
